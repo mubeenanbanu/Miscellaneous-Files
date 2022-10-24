@@ -1,0 +1,18 @@
+df bw 
+	primary n unique
+	unique all vs unique
+	severity vs priority
+	regression
+	tracebility matrix
+	how do u map test case requirement
+	
+can a table have multiple unique keys
+types of joins
+insert into d/f
+get unique records from table
+get top 10, 5 records
+get last record
+design techniques
+sprint planning,sprint review
+how to get duplicate records
+

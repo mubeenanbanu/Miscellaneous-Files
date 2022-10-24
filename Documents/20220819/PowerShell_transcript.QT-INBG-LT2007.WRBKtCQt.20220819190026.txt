@@ -1,0 +1,44 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220819190027
+Username: QUALITEST\mubeena
+RunAs User: QUALITEST\mubeena
+Configuration Name: 
+Machine: QT-INBG-LT2007 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe
+Process ID: 5304
+PSVersion: 5.1.19041.1237
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1237
+BuildVersion: 10.0.19041.1237
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Get-AppxPackage): "Get-AppxPackage"
+>> ParameterBinding(Get-AppxPackage): name="Name"; value="Microsoft.MicrosoftEdge"
+
+
+Name              : Microsoft.MicrosoftEdge
+Publisher         : CN=Microsoft Corporation, O=Microsoft Corporation,
+                    L=Redmond, S=Washington, C=US
+Architecture      : Neutral
+ResourceId        :
+Version           : 44.19041.1266.0
+PackageFullName   : Microsoft.MicrosoftEdge_44.19041.1266.0_neutral__8wekyb3d8b
+                    bwe
+InstallLocation   : C:\Windows\SystemApps\Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+IsFramework       : False
+PackageFamilyName : Microsoft.MicrosoftEdge_8wekyb3d8bbwe
+PublisherId       : 8wekyb3d8bbwe
+IsResourcePackage : False
+IsBundle          : False
+IsDevelopmentMode : False
+NonRemovable      : True
+IsPartiallyStaged : False
+SignatureKind     : System
+Status            : Ok
+
+
+

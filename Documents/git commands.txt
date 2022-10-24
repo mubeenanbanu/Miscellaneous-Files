@@ -1,0 +1,49 @@
+
+git add *
+
+* represents add all files present in folder to stash
+
+to push code to git first you need to commit the code for that add the code to stash
+git commit  -m ""
+
+m stands for message
+
+use git init before pushing or cloning the project to initialize git repository
+
+
+---------------------
+C:\Users\mubeena>git config --global user.name "mubeenabanu"
+
+
+
+C:\Users\mubeena>git config --global user.email "mubeenabanu6125@gmail.com"
+
+git init
+
+git add *
+
+git status
+
+git commit -m "first commit" 
+
+git remote add origin https://github.com/mubeenanbanu/Demo.git
+
+git push origin master    give authentication
+
+git clone https://github.com/mubeenanbanu/Demo.git
+
+when first time you have to take code from git use clone
+
+then use pull
+
+git pull origin master 
+
+to pull the latest code from git to already cloned code in machine
+
+git checkout -b developBranch
+
+cloning -taking files from git for first time
+
+pull -taking files from git after first time
+
+push,add-adding files to git

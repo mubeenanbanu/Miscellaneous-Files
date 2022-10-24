@@ -1,0 +1,35 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220825204845
+Username: QUALITEST\mubeena
+RunAs User: QUALITEST\mubeena
+Configuration Name: 
+Machine: QT-INBG-LT2007 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe
+Process ID: 16028
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>Get-ExecutionPolicy
+Restricted
+PS>Get-ExecutionPolicy -Scope MachinePolicy
+Undefined
+PS>Get-ExecutionPolicy -Scope UserPolicy
+Undefined
+PS>Set-ExecutionPolicy RemoteSigned -Scope Process -Force
+PS>Import-Module 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\ENTERPRISE\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\NUGET\Modules\NuGet\NuGet.psd1'
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="profile"
+>> ParameterBinding(Set-Variable): name="Value"; value="C:\Users\mubeena\Documents\WindowsPowerShell\NuGet_profile.ps1"
+>> ParameterBinding(Set-Variable): name="Option"; value="None"
+PS>Set-Location 'C:\Users\mubeena'
+PM>Set-Location 'C:\Users\mubeena\source\repos\SpecflowCalculator'
+PM>Set-Location 'C:\Users\mubeena\source\repos\SpecflowCalculator'
+PM>Set-Location 'C:\Users\mubeena\source\repos\SpecflowCalculator'
+PM>Set-Location 'C:\Users\mubeena'

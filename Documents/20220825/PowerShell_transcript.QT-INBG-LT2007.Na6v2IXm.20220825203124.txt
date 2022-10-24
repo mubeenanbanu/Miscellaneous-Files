@@ -1,0 +1,106 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220825203124
+Username: QUALITEST\mubeena
+RunAs User: QUALITEST\mubeena
+Configuration Name: 
+Machine: QT-INBG-LT2007 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe C:\Users\mubeena\source\repos\Sample Project\Sample Project.sln
+Process ID: 1452
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>Get-ExecutionPolicy
+Restricted
+PS>Get-ExecutionPolicy -Scope MachinePolicy
+Undefined
+PS>Get-ExecutionPolicy -Scope UserPolicy
+Undefined
+PS>Set-ExecutionPolicy RemoteSigned -Scope Process -Force
+PS>Import-Module 'C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO\2019\ENTERPRISE\COMMON7\IDE\COMMONEXTENSIONS\MICROSOFT\NUGET\Modules\NuGet\NuGet.psd1'
+PS>CommandInvocation(Set-Variable): "Set-Variable"
+>> ParameterBinding(Set-Variable): name="Name"; value="profile"
+>> ParameterBinding(Set-Variable): name="Value"; value="C:\Users\mubeena\Documents\WindowsPowerShell\NuGet_profile.ps1"
+>> ParameterBinding(Set-Variable): name="Option"; value="None"
+PS>Set-Location 'C:\Users\mubeena\source\repos\Sample Project'
+PM>Install -Package Specflow
+
+PM>Install-Package Specflow
+
+PM>Install-Package Specflow.NUnit
+
+PM>Install-Package NUnit3TestAdapter
+
+PM>Get Package
+
+**********************
+Windows PowerShell transcript start
+Start time: 20220825204715
+Username: QUALITEST\mubeena
+RunAs User: QUALITEST\mubeena
+Configuration Name: 
+Machine: QT-INBG-LT2007 (Microsoft Windows NT 10.0.19044.0)
+Host Application: C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\devenv.exe C:\Users\mubeena\source\repos\Sample Project\Sample Project.sln
+Process ID: 1452
+PSVersion: 5.1.19041.1682
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.1682
+BuildVersion: 10.0.19041.1682
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+PS>CommandInvocation(Out-String): "Out-String"
+>> ParameterBinding(Out-String): name="InputObject"; value="The term 'Get' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again."
+Get : The term 'Get' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Get Package
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (Get:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Get : The term 'Get' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Get Package
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (Get:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Get : The term 'Get' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ Get Package
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (Get:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PM>Get-Package
+
+
+Id                                  Versions                                 ProjectName
+--                                  --------                                 -----------
+Specflow                            {3.9.74}                                 Sample Project
+NUnit3TestAdapter                   {4.2.1}                                  Sample Project
+Specflow.NUnit                      {3.9.74}                                 Sample Project
+SpecFlow                            {3.9.74}                                 SpecflowCalculator
+
+
+PM>Get-Package
+
+
+Id                                  Versions                                 ProjectName
+--                                  --------                                 -----------
+Specflow                            {3.9.74}                                 Sample Project
+NUnit3TestAdapter                   {4.2.1}                                  Sample Project
+Specflow.NUnit                      {3.9.74}                                 Sample Project
+SpecFlow                            {3.9.74}                                 SpecflowCalculator
+
+
+PM>Set-Location 'C:\Users\mubeena'

@@ -1,0 +1,14 @@
+exceptions
+
+org.openqa.selenium.NoSuchSessionException  ->when code is written after driver.quit();
+staleelement exception
+java.lang.IllegalStateException  
+InvalidSelectorException -when compund class names are used
+NullPointerException- when driver is not used in page class
+
+dowe really use timeout attribute in testng
+what is orfer of exe when we have 2 before suites in d/f classes?
+
+
+API KEY-
+PMAK-634e2d44c4a4fb6a702262be-b192cf06bc70a388ae4ca16a8970e4cf85

@@ -1,0 +1,10 @@
+
+Monthly
+1,662.0474 -Gratuity
+4,146.00-EPF
+500-insurance
+
+Misc deductions -6308
+Gross-69,108.00
+
+Total ctc/month-75,416.0474
